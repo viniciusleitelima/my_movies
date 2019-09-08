@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :actors
+  resources :directors
   get 'directors/index'
   get 'directors/show'
   get 'directors/new'
