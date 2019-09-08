@@ -1,0 +1,14 @@
+<h1>Actor</h1>
+
+<table>
+	<tr>
+		<th>Actor</th>
+		<th>Gender</th>
+	</tr>
+	<% @actors.each do |actor| %>
+		<tr>
+			<td><%= actor.name %></td>
+			<td><%= actor.gender %></td>
+		</tr>
+	<% end %>	
+</table>

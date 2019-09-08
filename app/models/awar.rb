@@ -1,0 +1,2 @@
+class Awar < ApplicationRecord
+end
